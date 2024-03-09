@@ -1,4 +1,5 @@
-# gpt_polyline
+# polyline_map
+Creates a OpenStreetMap and plots a polyline on the road using geo-coordinates with animation.
 
 A new Flutter project.
 
