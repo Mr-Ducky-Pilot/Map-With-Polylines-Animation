@@ -1,0 +1,2262 @@
+{
+  "trip": {
+    "locations": [
+      {
+        "type": "break",
+        "lat": 15.814546,
+        "lon": 74.48791,
+        "original_index": 0
+      },
+      {
+        "type": "via",
+        "lat": 15.830159,
+        "lon": 74.500093,
+        "original_index": 1
+      },
+      {
+        "type": "via",
+        "lat": 15.837383,
+        "lon": 74.501178,
+        "original_index": 2
+      },
+      {
+        "type": "via",
+        "lat": 15.856499,
+        "lon": 74.506187,
+        "original_index": 3
+      },
+      {
+        "type": "via",
+        "lat": 15.867287,
+        "lon": 74.511703,
+        "original_index": 4
+      },
+      {
+        "type": "via",
+        "lat": 15.866292,
+        "lon": 74.518481,
+        "original_index": 5
+      },
+      {
+        "type": "via",
+        "lat": 15.860668,
+        "lon": 74.519362,
+        "original_index": 6
+      },
+      {
+        "type": "via",
+        "lat": 15.847499,
+        "lon": 74.521894,
+        "original_index": 7
+      },
+      {
+        "type": "break",
+        "lat": 15.81418,
+        "lon": 74.490566,
+        "original_index": 8
+      }
+    ],
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "type": 1,
+            "instruction": "Drive southeast.",
+            "verbal_succinct_transition_instruction": "Drive southeast. Then Bear left.",
+            "verbal_pre_transition_instruction": "Drive southeast. Then Bear left.",
+            "verbal_post_transition_instruction": "Continue for 100 meters.",
+            "time": 23.966,
+            "length": 0.133,
+            "cost": 27.237,
+            "begin_shape_index": 0,
+            "end_shape_index": 7,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 16,
+            "instruction": "Bear left.",
+            "verbal_transition_alert_instruction": "Bear left.",
+            "verbal_succinct_transition_instruction": "Bear left.",
+            "verbal_pre_transition_instruction": "Bear left.",
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "time": 28.209,
+            "length": 0.156,
+            "cost": 36.834,
+            "begin_shape_index": 7,
+            "end_shape_index": 14,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 15,
+            "instruction": "Turn left onto NH748/Belgaum - Panaji Highway.",
+            "verbal_transition_alert_instruction": "Turn left onto NH7 48.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_pre_transition_instruction": "Turn left onto NH7 48, Belgaum - Panaji Highway.",
+            "verbal_post_transition_instruction": "Continue for 2 kilometers.",
+            "street_names": [
+              "NH748",
+              "Belgaum - Panaji Highway"
+            ],
+            "time": 127.359,
+            "length": 2.055,
+            "cost": 147.343,
+            "begin_shape_index": 14,
+            "end_shape_index": 58,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 12,
+            "instruction": "Make a right U-turn to stay on NH748/Belgaum - Panaji Highway.",
+            "verbal_transition_alert_instruction": "Make a right U-turn to stay on NH7 48.",
+            "verbal_succinct_transition_instruction": "Make a right U-turn.",
+            "verbal_pre_transition_instruction": "Make a right U-turn to stay on NH7 48, Belgaum - Panaji Highway.",
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "street_names": [
+              "NH748",
+              "Belgaum - Panaji Highway"
+            ],
+            "time": 25.538,
+            "length": 0.194,
+            "cost": 75.955,
+            "begin_shape_index": 58,
+            "end_shape_index": 62,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 12,
+            "instruction": "Make a right U-turn at Ranapratap Road to stay on NH748/Belgaum - Panaji Highway.",
+            "verbal_transition_alert_instruction": "Make a right U-turn at Ranapratap Road.",
+            "verbal_succinct_transition_instruction": "Make a right U-turn.",
+            "verbal_pre_transition_instruction": "Make a right U-turn at Ranapratap Road to stay on NH7 48, Belgaum - Panaji Highway.",
+            "verbal_post_transition_instruction": "Continue for 1 kilometer.",
+            "street_names": [
+              "NH748",
+              "Belgaum - Panaji Highway"
+            ],
+            "time": 78.469,
+            "length": 1.002,
+            "cost": 134.098,
+            "begin_shape_index": 62,
+            "end_shape_index": 86,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 14,
+            "instruction": "Make a sharp left.",
+            "verbal_transition_alert_instruction": "Make a sharp left.",
+            "verbal_succinct_transition_instruction": "Make a sharp left. Then Make a right U-turn.",
+            "verbal_pre_transition_instruction": "Make a sharp left. Then Make a right U-turn.",
+            "verbal_post_transition_instruction": "Continue for 20 meters.",
+            "time": 8.957,
+            "length": 0.02,
+            "cost": 7.469,
+            "begin_shape_index": 86,
+            "end_shape_index": 87,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 12,
+            "instruction": "Make a right U-turn.",
+            "verbal_transition_alert_instruction": "Make a right U-turn.",
+            "verbal_succinct_transition_instruction": "Make a right U-turn. Then Bear left onto NH7 48.",
+            "verbal_pre_transition_instruction": "Make a right U-turn. Then Bear left onto NH7 48.",
+            "verbal_post_transition_instruction": "Continue for 20 meters.",
+            "time": 2.194,
+            "length": 0.02,
+            "cost": 2.469,
+            "begin_shape_index": 87,
+            "end_shape_index": 88,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 16,
+            "instruction": "Bear left onto NH748/Belgaum - Panaji Highway.",
+            "verbal_transition_alert_instruction": "Bear left onto NH7 48.",
+            "verbal_succinct_transition_instruction": "Bear left.",
+            "verbal_pre_transition_instruction": "Bear left onto NH7 48, Belgaum - Panaji Highway.",
+            "verbal_post_transition_instruction": "Continue for 2.5 kilometers.",
+            "street_names": [
+              "NH748",
+              "Belgaum - Panaji Highway"
+            ],
+            "time": 152.819,
+            "length": 2.284,
+            "cost": 190.615,
+            "begin_shape_index": 88,
+            "end_shape_index": 133,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 15,
+            "instruction": "Turn left.",
+            "verbal_transition_alert_instruction": "Turn left.",
+            "verbal_succinct_transition_instruction": "Turn left. Then, in 30 meters, Make a right U-turn.",
+            "verbal_pre_transition_instruction": "Turn left. Then, in 30 meters, Make a right U-turn.",
+            "verbal_post_transition_instruction": "Continue for 30 meters.",
+            "time": 6.17,
+            "length": 0.032,
+            "cost": 14.148,
+            "begin_shape_index": 133,
+            "end_shape_index": 135,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 12,
+            "instruction": "Make a right U-turn.",
+            "verbal_transition_alert_instruction": "Make a right U-turn.",
+            "verbal_succinct_transition_instruction": "Make a right U-turn. Then, in 30 meters, Turn left onto NH7 48.",
+            "verbal_pre_transition_instruction": "Make a right U-turn. Then, in 30 meters, Turn left onto NH7 48.",
+            "verbal_post_transition_instruction": "Continue for 30 meters.",
+            "time": 4.479,
+            "length": 0.032,
+            "cost": 9.148,
+            "begin_shape_index": 135,
+            "end_shape_index": 137,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 15,
+            "instruction": "Turn left onto NH748/Belgaum - Panaji Highway.",
+            "verbal_transition_alert_instruction": "Turn left onto NH7 48.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_pre_transition_instruction": "Turn left onto NH7 48, Belgaum - Panaji Highway.",
+            "verbal_post_transition_instruction": "Continue for 400 meters.",
+            "street_names": [
+              "NH748",
+              "Belgaum - Panaji Highway"
+            ],
+            "time": 26.022,
+            "length": 0.405,
+            "cost": 42.31,
+            "begin_shape_index": 137,
+            "end_shape_index": 152,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 26,
+            "instruction": "Enter Bogarvase Circle and take the 1st exit onto NH748/Belgaum - Panaji Highway.",
+            "verbal_transition_alert_instruction": "Enter Bogarvase Circle and take the 1st exit onto NH7 48.",
+            "verbal_succinct_transition_instruction": "Enter the roundabout and take the 1st exit.",
+            "verbal_pre_transition_instruction": "Enter Bogarvase Circle and take the 1st exit onto NH7 48, Belgaum - Panaji Highway.",
+            "street_names": [
+              "Bogarvase Circle"
+            ],
+            "time": 2.554,
+            "length": 0.016,
+            "cost": 4.466,
+            "begin_shape_index": 152,
+            "end_shape_index": 157,
+            "roundabout_exit_count": 1,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 27,
+            "instruction": "Exit the roundabout onto NH748/Belgaum - Panaji Highway.",
+            "verbal_succinct_transition_instruction": "Exit the roundabout.",
+            "verbal_pre_transition_instruction": "Exit the roundabout onto NH7 48, Belgaum - Panaji Highway.",
+            "verbal_post_transition_instruction": "Continue for 1 kilometer.",
+            "street_names": [
+              "NH748",
+              "Belgaum - Panaji Highway"
+            ],
+            "time": 68.19,
+            "length": 1.016,
+            "cost": 76.815,
+            "begin_shape_index": 157,
+            "end_shape_index": 182,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 26,
+            "instruction": "Enter the roundabout and take the 2nd exit onto NH748/Belgaum - Panaji Highway.",
+            "verbal_transition_alert_instruction": "Enter the roundabout and take the 2nd exit onto NH7 48.",
+            "verbal_succinct_transition_instruction": "Enter the roundabout and take the 2nd exit.",
+            "verbal_pre_transition_instruction": "Enter the roundabout and take the 2nd exit onto NH7 48, Belgaum - Panaji Highway.",
+            "time": 9.34,
+            "length": 0.062,
+            "cost": 11.49,
+            "begin_shape_index": 182,
+            "end_shape_index": 191,
+            "roundabout_exit_count": 2,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 27,
+            "instruction": "Exit the roundabout onto NH748/Belgaum - Panaji Highway.",
+            "verbal_succinct_transition_instruction": "Exit the roundabout.",
+            "verbal_pre_transition_instruction": "Exit the roundabout onto NH7 48, Belgaum - Panaji Highway.",
+            "verbal_post_transition_instruction": "Continue for 50 meters.",
+            "street_names": [
+              "NH748",
+              "Belgaum - Panaji Highway"
+            ],
+            "time": 3.399,
+            "length": 0.05,
+            "cost": 3.695,
+            "begin_shape_index": 191,
+            "end_shape_index": 193,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 26,
+            "instruction": "Enter Rani Chennamma Circle and take the 4th exit onto SH20.",
+            "verbal_transition_alert_instruction": "Enter Rani Chennamma Circle and take the 4th exit onto State Highway 20.",
+            "verbal_succinct_transition_instruction": "Enter the roundabout and take the 4th exit.",
+            "verbal_pre_transition_instruction": "Enter Rani Chennamma Circle and take the 4th exit onto State Highway 20.",
+            "street_names": [
+              "Rani Chennamma Circle"
+            ],
+            "time": 6.682,
+            "length": 0.043,
+            "cost": 9.178,
+            "begin_shape_index": 193,
+            "end_shape_index": 203,
+            "roundabout_exit_count": 4,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 27,
+            "instruction": "Exit the roundabout onto SH20.",
+            "verbal_succinct_transition_instruction": "Exit the roundabout.",
+            "verbal_pre_transition_instruction": "Exit the roundabout onto State Highway 20.",
+            "verbal_post_transition_instruction": "Continue for 700 meters.",
+            "street_names": [
+              "SH20"
+            ],
+            "time": 63.565,
+            "length": 0.701,
+            "cost": 83.704,
+            "begin_shape_index": 203,
+            "end_shape_index": 214,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 26,
+            "instruction": "Enter RTO Circle and take the 10th exit.",
+            "verbal_transition_alert_instruction": "Enter RTO Circle and take the 10th exit.",
+            "verbal_succinct_transition_instruction": "Enter the roundabout and take the 10th exit.",
+            "verbal_pre_transition_instruction": "Enter RTO Circle and take the 10th exit.",
+            "street_names": [
+              "RTO Circle"
+            ],
+            "time": 49.9,
+            "length": 0.331,
+            "cost": 60.296,
+            "begin_shape_index": 214,
+            "end_shape_index": 247,
+            "roundabout_exit_count": 10,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 27,
+            "instruction": "Exit the roundabout.",
+            "verbal_succinct_transition_instruction": "Exit the roundabout.",
+            "verbal_pre_transition_instruction": "Exit the roundabout.",
+            "verbal_post_transition_instruction": "Continue for 1 kilometer.",
+            "time": 107.005,
+            "length": 1.166,
+            "cost": 161.749,
+            "begin_shape_index": 247,
+            "end_shape_index": 279,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 23,
+            "instruction": "Keep right at the fork.",
+            "verbal_transition_alert_instruction": "Keep right at the fork.",
+            "verbal_pre_transition_instruction": "Keep right at the fork.",
+            "verbal_post_transition_instruction": "Continue for 500 meters.",
+            "time": 47.447,
+            "length": 0.527,
+            "cost": 55.73,
+            "begin_shape_index": 279,
+            "end_shape_index": 295,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 16,
+            "instruction": "Bear left onto Pune Bengaluru Road.",
+            "verbal_transition_alert_instruction": "Bear left onto Pune Bengaluru Road.",
+            "verbal_succinct_transition_instruction": "Bear left.",
+            "verbal_pre_transition_instruction": "Bear left onto Pune Bengaluru Road.",
+            "verbal_post_transition_instruction": "Continue for 400 meters.",
+            "street_names": [
+              "Pune Bengaluru Road"
+            ],
+            "time": 38.294,
+            "length": 0.423,
+            "cost": 56.163,
+            "begin_shape_index": 295,
+            "end_shape_index": 310,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 10,
+            "instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_pre_transition_instruction": "Turn right.",
+            "verbal_post_transition_instruction": "Continue for 500 meters.",
+            "time": 101.583,
+            "length": 0.513,
+            "cost": 148.897,
+            "begin_shape_index": 310,
+            "end_shape_index": 318,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 9,
+            "instruction": "Bear right onto Kulkarni Galli.",
+            "verbal_transition_alert_instruction": "Bear right onto Kulkarni Galli.",
+            "verbal_succinct_transition_instruction": "Bear right.",
+            "verbal_pre_transition_instruction": "Bear right onto Kulkarni Galli.",
+            "verbal_post_transition_instruction": "Continue for 70 meters.",
+            "street_names": [
+              "Kulkarni Galli"
+            ],
+            "time": 13.802,
+            "length": 0.071,
+            "cost": 27.106,
+            "begin_shape_index": 318,
+            "end_shape_index": 321,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 15,
+            "instruction": "Turn left onto SPM Road.",
+            "verbal_transition_alert_instruction": "Turn left onto SPM Road.",
+            "verbal_succinct_transition_instruction": "Turn left. Then Turn right onto Mahatma Phule Road.",
+            "verbal_pre_transition_instruction": "Turn left onto SPM Road. Then Turn right onto Mahatma Phule Road.",
+            "verbal_post_transition_instruction": "Continue for less than 10 meters.",
+            "street_names": [
+              "SPM Road"
+            ],
+            "time": 1.767,
+            "length": 0.005,
+            "cost": 19.528,
+            "begin_shape_index": 321,
+            "end_shape_index": 322,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 10,
+            "instruction": "Turn right onto Mahatma Phule Road.",
+            "verbal_transition_alert_instruction": "Turn right onto Mahatma Phule Road.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_pre_transition_instruction": "Turn right onto Mahatma Phule Road.",
+            "verbal_post_transition_instruction": "Continue for 1 kilometer.",
+            "street_names": [
+              "Mahatma Phule Road"
+            ],
+            "time": 102.774,
+            "length": 1.111,
+            "cost": 168.505,
+            "begin_shape_index": 322,
+            "end_shape_index": 345,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 26,
+            "instruction": "Enter Goaves Circle and take the 2nd exit onto Khanapur Road.",
+            "verbal_transition_alert_instruction": "Enter Goaves Circle and take the 2nd exit onto Khanapur Road.",
+            "verbal_succinct_transition_instruction": "Enter the roundabout and take the 2nd exit.",
+            "verbal_pre_transition_instruction": "Enter Goaves Circle and take the 2nd exit onto Khanapur Road.",
+            "street_names": [
+              "Goaves Circle"
+            ],
+            "time": 4.36,
+            "length": 0.022,
+            "cost": 15.001,
+            "begin_shape_index": 345,
+            "end_shape_index": 351,
+            "roundabout_exit_count": 2,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 27,
+            "instruction": "Exit the roundabout onto Khanapur Road.",
+            "verbal_succinct_transition_instruction": "Exit the roundabout.",
+            "verbal_pre_transition_instruction": "Exit the roundabout onto Khanapur Road.",
+            "verbal_post_transition_instruction": "Continue for 1.5 kilometers.",
+            "street_names": [
+              "Khanapur Road"
+            ],
+            "time": 124.31,
+            "length": 1.379,
+            "cost": 178.566,
+            "begin_shape_index": 351,
+            "end_shape_index": 371,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 9,
+            "instruction": "Bear right onto NH748/Belgaum - Panaji Highway.",
+            "verbal_transition_alert_instruction": "Bear right onto NH7 48.",
+            "verbal_succinct_transition_instruction": "Bear right.",
+            "verbal_pre_transition_instruction": "Bear right onto NH7 48, Belgaum - Panaji Highway.",
+            "verbal_post_transition_instruction": "Continue for 2 kilometers.",
+            "street_names": [
+              "NH748",
+              "Belgaum - Panaji Highway"
+            ],
+            "time": 152.676,
+            "length": 2.162,
+            "cost": 187.717,
+            "begin_shape_index": 371,
+            "end_shape_index": 416,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 4,
+            "instruction": "You have arrived at your destination.",
+            "verbal_transition_alert_instruction": "You will arrive at your destination.",
+            "verbal_pre_transition_instruction": "You have arrived at your destination.",
+            "time": 0,
+            "length": 0,
+            "cost": 0,
+            "begin_shape_index": 416,
+            "end_shape_index": 416,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 15.814193,
+          "min_lon": 74.487944,
+          "max_lat": 15.86746,
+          "max_lon": 74.521969,
+          "time": 1381.842,
+          "length": 15.935,
+          "cost": 1956.245
+        },
+        "shape": "wwfd]ogkamCjDyGj@sBFkC@cKEgPf@sLr@yN}@s@q@kAWuAsBmXy@uLm@}UM_S_A]qIsDaMkE_\\oLqXgKiQ{Gc_@oOk]sOcIqDgKaFcKkFeh@eXmx@}e@uVgN}KmGke@gXa]sTmImGeImGi^_^a[y`@eVaZcImIyEgE}HkGaIaFaAk@mAs@y`Aqi@ovAky@gNmIqt@ub@a_@oUaGyCgI_C{Ia@a\\uByYkBmJ}@kLeAqWeByHq@{MqAaZeBHqFdHn@bi@zE~o@zFN|DmJ}@kLeAqWeByHq@{MqAaZeBoh@kEgt@_ImZ}C{OqB}Iq@wVmAoe@eDcc@}CoKaA_YeDyTkCwUyCqd@aJiFgAca@eJ_VkGuJgDvC~IwC_J{\\yKeOmF_XoIaOcF}o@_TsHmCoPoFud@cNml@gSydA}]sDuA_`@_Pm]yO{h@yUi}@cg@_IiE{aAmj@k]cSaYsO{LkH{LkImCaCkAaAwCmB_Bo@{Aa@{DGeJZs{@dLgs@hIyp@bHq]zCiCTal@dEoBNkYAaRUsUk@yZyA}JeAkj@mEoWiByOZoNb@ys@`EDzFpA~IqA_JE{F{EZsKr@ox@`EyJVaGQkF_AqHwD{CsCkDmEeD}HsSam@eHoN}BwDoBkCiD_Dy@N{@Cw@So@e@e@q@{N~CyqArYaLlBkJpA}b@nFgVrB{GZoIGwDW_Cg@aCiAcq@c^mv@yf@wO_KkYwPkAo@wb@}Saa@}R{O}HwD{BqEqDcEgEiAsAsAgCaNoa@eCe@uBoAsAsBk@aCAiCRwAd@sAhA}A~AcAHyCl@gWsAi@_AeAg@wACq@Co@V_Bd@{@r@q@|@a@bAQ@sKBwQN}z@KwhA_@oaA^cMfAoJxIub@pDkO|J}a@lRaw@eCqCsAyDS{CPyCv@sCxA}BrBaBhCaArCYxFl@xC`BvBlCfAhDHbGo@|Bk@rBuDrDkFrAwFWoD{AeCqCsAyDS{CPyCv@sCxA}BrBaBhCaArCYxFl@xC`BvBlCfAhDrG_DdKcHhLmEdf@{QrEe@pCe@r_@oGt\\kBvDSbX{Af{@i@dDJx@Bt}@fBdLZlMl@f^`BnC{@vNNvPP|]iA~c@qC~Fa@pPk@bESnCW~MaBvJcCrZqGzj@wMvSiDrIkAdFu@rL}B~c@yIfe@iI|HeBvYoHnVyHdKeCzJeBlPmChMkA~Jm@nSBnTGfPAdBbAnCK|S_An`@qBhZwDlLiCrZyGjTgErA}ArD_AhEcA~FmAdQiDtJiAtIi@xRUNhBz@lL`Fvc@|^xdBdIjd@jOvo@pIre@vBdD]jBEhCdCp`@~A@tJx_@nCbIbBfJ|Dn^fC~PzChP~Lfx@lNjx@|BzIbIbTxFlJpS`_@lk@tz@hFdFjFdC`SjCtV~CrHtBd[hO`fAlq@zLpGlB`GlLhFl@i@x@[|@I~@Hv@Zn@h@|k@fJ`IxCzHzDrJnEfe@lZ~g@|Zpg@|^|FrEdr@tj@nTlQpW|Sfq@~i@|C`C~]z[`OhLbQnO|g@jc@bl@~a@nFzCjoBnkAtCjGbd@nVzi@`\\z[nRp`@xRha@xZpk@~[|m@d`@nQdHxG`Ex^`Tf^vSdDlB`z@bf@~HrEbE`C`Al@dAr@pFtDtA`AhKrHjLtK`W|ZbXn]fRtSfXfVjQlMdVhOdMdHhb@dUf\\pRxs@rb@re@fW`PfIfJbEpY`Mzj@jUdAb@tOpFnQlGjEzAh^xNlK`EfI~CbUvI"
+      }
+    ],
+    "summary": {
+      "has_time_restrictions": false,
+      "has_toll": false,
+      "has_highway": false,
+      "has_ferry": false,
+      "min_lat": 15.814193,
+      "min_lon": 74.487944,
+      "max_lat": 15.86746,
+      "max_lon": 74.521969,
+      "time": 1381.842,
+      "length": 15.935,
+      "cost": 1956.245
+    },
+    "status_message": "Found route between points",
+    "status": 0,
+    "units": "kilometers",
+    "language": "en-US"
+  },
+  "id": "valhalla_directions",
+  "decodedGeometry": [
+    [
+      15.81454,
+      74.487944
+    ],
+    [
+      15.814454,
+      74.488085
+    ],
+    [
+      15.814432,
+      74.488143
+    ],
+    [
+      15.814428,
+      74.488213
+    ],
+    [
+      15.814427,
+      74.488407
+    ],
+    [
+      15.81443,
+      74.488683
+    ],
+    [
+      15.81441,
+      74.488901
+    ],
+    [
+      15.814384,
+      74.489154
+    ],
+    [
+      15.814415,
+      74.48918
+    ],
+    [
+      15.81444,
+      74.489218
+    ],
+    [
+      15.814452,
+      74.489261
+    ],
+    [
+      15.81451,
+      74.489668
+    ],
+    [
+      15.814539,
+      74.489887
+    ],
+    [
+      15.814562,
+      74.490254
+    ],
+    [
+      15.814569,
+      74.490574
+    ],
+    [
+      15.814601,
+      74.490589
+    ],
+    [
+      15.81477,
+      74.490679
+    ],
+    [
+      15.814995,
+      74.490781
+    ],
+    [
+      15.815459,
+      74.490997
+    ],
+    [
+      15.815868,
+      74.491193
+    ],
+    [
+      15.816161,
+      74.491335
+    ],
+    [
+      15.816675,
+      74.491599
+    ],
+    [
+      15.817161,
+      74.491865
+    ],
+    [
+      15.817323,
+      74.491954
+    ],
+    [
+      15.817519,
+      74.492067
+    ],
+    [
+      15.817713,
+      74.492185
+    ],
+    [
+      15.818372,
+      74.492588
+    ],
+    [
+      15.819291,
+      74.493211
+    ],
+    [
+      15.81967,
+      74.493455
+    ],
+    [
+      15.819877,
+      74.49359
+    ],
+    [
+      15.820491,
+      74.493994
+    ],
+    [
+      15.820972,
+      74.49434
+    ],
+    [
+      15.821139,
+      74.494475
+    ],
+    [
+      15.821302,
+      74.49461
+    ],
+    [
+      15.821803,
+      74.495106
+    ],
+    [
+      15.822252,
+      74.495647
+    ],
+    [
+      15.822623,
+      74.49608
+    ],
+    [
+      15.822785,
+      74.496247
+    ],
+    [
+      15.822894,
+      74.496347
+    ],
+    [
+      15.823053,
+      74.496481
+    ],
+    [
+      15.823214,
+      74.496594
+    ],
+    [
+      15.823247,
+      74.496616
+    ],
+    [
+      15.823286,
+      74.496642
+    ],
+    [
+      15.824339,
+      74.497323
+    ],
+    [
+      15.825739,
+      74.498257
+    ],
+    [
+      15.825983,
+      74.498424
+    ],
+    [
+      15.82684,
+      74.498995
+    ],
+    [
+      15.827353,
+      74.499355
+    ],
+    [
+      15.827482,
+      74.499432
+    ],
+    [
+      15.827646,
+      74.499496
+    ],
+    [
+      15.82782,
+      74.499513
+    ],
+    [
+      15.828285,
+      74.499572
+    ],
+    [
+      15.828714,
+      74.499626
+    ],
+    [
+      15.828897,
+      74.499657
+    ],
+    [
+      15.829111,
+      74.499692
+    ],
+    [
+      15.829504,
+      74.499743
+    ],
+    [
+      15.829661,
+      74.499768
+    ],
+    [
+      15.829899,
+      74.499809
+    ],
+    [
+      15.830332,
+      74.49986
+    ],
+    [
+      15.830327,
+      74.499981
+    ],
+    [
+      15.83018,
+      74.499957
+    ],
+    [
+      15.829506,
+      74.499847
+    ],
+    [
+      15.828722,
+      74.499721
+    ],
+    [
+      15.828714,
+      74.499626
+    ],
+    [
+      15.828897,
+      74.499657
+    ],
+    [
+      15.829111,
+      74.499692
+    ],
+    [
+      15.829504,
+      74.499743
+    ],
+    [
+      15.829661,
+      74.499768
+    ],
+    [
+      15.829899,
+      74.499809
+    ],
+    [
+      15.830332,
+      74.49986
+    ],
+    [
+      15.830996,
+      74.499962
+    ],
+    [
+      15.831848,
+      74.500122
+    ],
+    [
+      15.832287,
+      74.500201
+    ],
+    [
+      15.832557,
+      74.500258
+    ],
+    [
+      15.832732,
+      74.500283
+    ],
+    [
+      15.833112,
+      74.500322
+    ],
+    [
+      15.833728,
+      74.500405
+    ],
+    [
+      15.834306,
+      74.500484
+    ],
+    [
+      15.834506,
+      74.500517
+    ],
+    [
+      15.834922,
+      74.5006
+    ],
+    [
+      15.835271,
+      74.50067
+    ],
+    [
+      15.835635,
+      74.500747
+    ],
+    [
+      15.836236,
+      74.500924
+    ],
+    [
+      15.836353,
+      74.50096
+    ],
+    [
+      15.836899,
+      74.501139
+    ],
+    [
+      15.837267,
+      74.501273
+    ],
+    [
+      15.837454,
+      74.501357
+    ],
+    [
+      15.837378,
+      74.501181
+    ],
+    [
+      15.837454,
+      74.501357
+    ],
+    [
+      15.837932,
+      74.501562
+    ],
+    [
+      15.838191,
+      74.501681
+    ],
+    [
+      15.838591,
+      74.501849
+    ],
+    [
+      15.838848,
+      74.501963
+    ],
+    [
+      15.839631,
+      74.502299
+    ],
+    [
+      15.839785,
+      74.50237
+    ],
+    [
+      15.840065,
+      74.50249
+    ],
+    [
+      15.840668,
+      74.502732
+    ],
+    [
+      15.841395,
+      74.503056
+    ],
+    [
+      15.842512,
+      74.503551
+    ],
+    [
+      15.842602,
+      74.503594
+    ],
+    [
+      15.84313,
+      74.503866
+    ],
+    [
+      15.843617,
+      74.504135
+    ],
+    [
+      15.844287,
+      74.5045
+    ],
+    [
+      15.845284,
+      74.505142
+    ],
+    [
+      15.845444,
+      74.505243
+    ],
+    [
+      15.846514,
+      74.505938
+    ],
+    [
+      15.847,
+      74.50626
+    ],
+    [
+      15.847417,
+      74.506526
+    ],
+    [
+      15.847639,
+      74.506676
+    ],
+    [
+      15.847861,
+      74.506842
+    ],
+    [
+      15.847932,
+      74.506907
+    ],
+    [
+      15.84797,
+      74.50694
+    ],
+    [
+      15.848046,
+      74.506995
+    ],
+    [
+      15.848094,
+      74.507019
+    ],
+    [
+      15.84814,
+      74.507036
+    ],
+    [
+      15.848234,
+      74.50704
+    ],
+    [
+      15.848413,
+      74.507026
+    ],
+    [
+      15.849383,
+      74.506815
+    ],
+    [
+      15.850219,
+      74.50665
+    ],
+    [
+      15.851016,
+      74.506504
+    ],
+    [
+      15.851505,
+      74.506426
+    ],
+    [
+      15.851574,
+      74.506415
+    ],
+    [
+      15.852295,
+      74.506316
+    ],
+    [
+      15.852351,
+      74.506308
+    ],
+    [
+      15.852773,
+      74.506309
+    ],
+    [
+      15.853078,
+      74.50632
+    ],
+    [
+      15.85344,
+      74.506342
+    ],
+    [
+      15.853885,
+      74.506387
+    ],
+    [
+      15.854076,
+      74.506422
+    ],
+    [
+      15.85477,
+      74.506525
+    ],
+    [
+      15.855162,
+      74.506578
+    ],
+    [
+      15.855431,
+      74.506564
+    ],
+    [
+      15.855679,
+      74.506546
+    ],
+    [
+      15.856524,
+      74.506449
+    ],
+    [
+      15.856521,
+      74.506323
+    ],
+    [
+      15.85648,
+      74.506147
+    ],
+    [
+      15.856521,
+      74.506323
+    ],
+    [
+      15.856524,
+      74.506449
+    ],
+    [
+      15.856634,
+      74.506435
+    ],
+    [
+      15.856836,
+      74.506409
+    ],
+    [
+      15.857756,
+      74.506312
+    ],
+    [
+      15.857945,
+      74.5063
+    ],
+    [
+      15.858074,
+      74.506309
+    ],
+    [
+      15.858192,
+      74.506341
+    ],
+    [
+      15.858345,
+      74.506433
+    ],
+    [
+      15.858423,
+      74.506507
+    ],
+    [
+      15.858509,
+      74.50661
+    ],
+    [
+      15.858592,
+      74.506769
+    ],
+    [
+      15.858922,
+      74.507506
+    ],
+    [
+      15.859069,
+      74.507754
+    ],
+    [
+      15.859132,
+      74.507846
+    ],
+    [
+      15.859188,
+      74.507916
+    ],
+    [
+      15.859273,
+      74.507996
+    ],
+    [
+      15.859302,
+      74.507988
+    ],
+    [
+      15.859332,
+      74.50799
+    ],
+    [
+      15.85936,
+      74.508
+    ],
+    [
+      15.859384,
+      74.508019
+    ],
+    [
+      15.859403,
+      74.508044
+    ],
+    [
+      15.859657,
+      74.507964
+    ],
+    [
+      15.860982,
+      74.507538
+    ],
+    [
+      15.861191,
+      74.507483
+    ],
+    [
+      15.861373,
+      74.507442
+    ],
+    [
+      15.861948,
+      74.507322
+    ],
+    [
+      15.86232,
+      74.507264
+    ],
+    [
+      15.862462,
+      74.50725
+    ],
+    [
+      15.86263,
+      74.507254
+    ],
+    [
+      15.862722,
+      74.507266
+    ],
+    [
+      15.862786,
+      74.507286
+    ],
+    [
+      15.862851,
+      74.507323
+    ],
+    [
+      15.863653,
+      74.507821
+    ],
+    [
+      15.86454,
+      74.508458
+    ],
+    [
+      15.864808,
+      74.50865
+    ],
+    [
+      15.86523,
+      74.508934
+    ],
+    [
+      15.865268,
+      74.508958
+    ],
+    [
+      15.86584,
+      74.509293
+    ],
+    [
+      15.866385,
+      74.509612
+    ],
+    [
+      15.866655,
+      74.509771
+    ],
+    [
+      15.866747,
+      74.509833
+    ],
+    [
+      15.866852,
+      74.509922
+    ],
+    [
+      15.86695,
+      74.510022
+    ],
+    [
+      15.866987,
+      74.510064
+    ],
+    [
+      15.867029,
+      74.510132
+    ],
+    [
+      15.86727,
+      74.510684
+    ],
+    [
+      15.867337,
+      74.510703
+    ],
+    [
+      15.867396,
+      74.510743
+    ],
+    [
+      15.867438,
+      74.510801
+    ],
+    [
+      15.86746,
+      74.510866
+    ],
+    [
+      15.867461,
+      74.510935
+    ],
+    [
+      15.867451,
+      74.510979
+    ],
+    [
+      15.867432,
+      74.511021
+    ],
+    [
+      15.867395,
+      74.511068
+    ],
+    [
+      15.867347,
+      74.511102
+    ],
+    [
+      15.867342,
+      74.511179
+    ],
+    [
+      15.867319,
+      74.511567
+    ],
+    [
+      15.867361,
+      74.511588
+    ],
+    [
+      15.867393,
+      74.511623
+    ],
+    [
+      15.867413,
+      74.511667
+    ],
+    [
+      15.867415,
+      74.511692
+    ],
+    [
+      15.867417,
+      74.511716
+    ],
+    [
+      15.867405,
+      74.511764
+    ],
+    [
+      15.867386,
+      74.511794
+    ],
+    [
+      15.86736,
+      74.511819
+    ],
+    [
+      15.867329,
+      74.511836
+    ],
+    [
+      15.867295,
+      74.511845
+    ],
+    [
+      15.867294,
+      74.512047
+    ],
+    [
+      15.867292,
+      74.512347
+    ],
+    [
+      15.867284,
+      74.513306
+    ],
+    [
+      15.86729,
+      74.514486
+    ],
+    [
+      15.867306,
+      74.51555
+    ],
+    [
+      15.86729,
+      74.515776
+    ],
+    [
+      15.867254,
+      74.51596
+    ],
+    [
+      15.867081,
+      74.516531
+    ],
+    [
+      15.866992,
+      74.516793
+    ],
+    [
+      15.866801,
+      74.517352
+    ],
+    [
+      15.86649,
+      74.518249
+    ],
+    [
+      15.866557,
+      74.518322
+    ],
+    [
+      15.866599,
+      74.518415
+    ],
+    [
+      15.866609,
+      74.518493
+    ],
+    [
+      15.8666,
+      74.51857
+    ],
+    [
+      15.866572,
+      74.518644
+    ],
+    [
+      15.866527,
+      74.518707
+    ],
+    [
+      15.866469,
+      74.518756
+    ],
+    [
+      15.8664,
+      74.518789
+    ],
+    [
+      15.866326,
+      74.518802
+    ],
+    [
+      15.866201,
+      74.518779
+    ],
+    [
+      15.866124,
+      74.51873
+    ],
+    [
+      15.866064,
+      74.518659
+    ],
+    [
+      15.866028,
+      74.518574
+    ],
+    [
+      15.866023,
+      74.518444
+    ],
+    [
+      15.866047,
+      74.518381
+    ],
+    [
+      15.866069,
+      74.518323
+    ],
+    [
+      15.86616,
+      74.518233
+    ],
+    [
+      15.866278,
+      74.518191
+    ],
+    [
+      15.866402,
+      74.518203
+    ],
+    [
+      15.86649,
+      74.518249
+    ],
+    [
+      15.866557,
+      74.518322
+    ],
+    [
+      15.866599,
+      74.518415
+    ],
+    [
+      15.866609,
+      74.518493
+    ],
+    [
+      15.8666,
+      74.51857
+    ],
+    [
+      15.866572,
+      74.518644
+    ],
+    [
+      15.866527,
+      74.518707
+    ],
+    [
+      15.866469,
+      74.518756
+    ],
+    [
+      15.8664,
+      74.518789
+    ],
+    [
+      15.866326,
+      74.518802
+    ],
+    [
+      15.866201,
+      74.518779
+    ],
+    [
+      15.866124,
+      74.51873
+    ],
+    [
+      15.866064,
+      74.518659
+    ],
+    [
+      15.866028,
+      74.518574
+    ],
+    [
+      15.86589,
+      74.518654
+    ],
+    [
+      15.865695,
+      74.5188
+    ],
+    [
+      15.865482,
+      74.518903
+    ],
+    [
+      15.864855,
+      74.519205
+    ],
+    [
+      15.864749,
+      74.519224
+    ],
+    [
+      15.864676,
+      74.519243
+    ],
+    [
+      15.864154,
+      74.519379
+    ],
+    [
+      15.863679,
+      74.519433
+    ],
+    [
+      15.863587,
+      74.519443
+    ],
+    [
+      15.863185,
+      74.519489
+    ],
+    [
+      15.862221,
+      74.51951
+    ],
+    [
+      15.862138,
+      74.519504
+    ],
+    [
+      15.862109,
+      74.519502
+    ],
+    [
+      15.861106,
+      74.51945
+    ],
+    [
+      15.860895,
+      74.519436
+    ],
+    [
+      15.860664,
+      74.519413
+    ],
+    [
+      15.860164,
+      74.519364
+    ],
+    [
+      15.860092,
+      74.519394
+    ],
+    [
+      15.85984,
+      74.519386
+    ],
+    [
+      15.859556,
+      74.519377
+    ],
+    [
+      15.859061,
+      74.519414
+    ],
+    [
+      15.858469,
+      74.519487
+    ],
+    [
+      15.858341,
+      74.519504
+    ],
+    [
+      15.85806,
+      74.519526
+    ],
+    [
+      15.857962,
+      74.519536
+    ],
+    [
+      15.85789,
+      74.519548
+    ],
+    [
+      15.85765,
+      74.519597
+    ],
+    [
+      15.857462,
+      74.519663
+    ],
+    [
+      15.85702,
+      74.5198
+    ],
+    [
+      15.856318,
+      74.520036
+    ],
+    [
+      15.855986,
+      74.520121
+    ],
+    [
+      15.855816,
+      74.520159
+    ],
+    [
+      15.855701,
+      74.520186
+    ],
+    [
+      15.855483,
+      74.520249
+    ],
+    [
+      15.854891,
+      74.520422
+    ],
+    [
+      15.854279,
+      74.520587
+    ],
+    [
+      15.85412,
+      74.520638
+    ],
+    [
+      15.853692,
+      74.52079
+    ],
+    [
+      15.853316,
+      74.520947
+    ],
+    [
+      15.853121,
+      74.521014
+    ],
+    [
+      15.852931,
+      74.521065
+    ],
+    [
+      15.852652,
+      74.521136
+    ],
+    [
+      15.852423,
+      74.521174
+    ],
+    [
+      15.852231,
+      74.521197
+    ],
+    [
+      15.851903,
+      74.521195
+    ],
+    [
+      15.851559,
+      74.521199
+    ],
+    [
+      15.851283,
+      74.5212
+    ],
+    [
+      15.851232,
+      74.521166
+    ],
+    [
+      15.85116,
+      74.521172
+    ],
+    [
+      15.850825,
+      74.521204
+    ],
+    [
+      15.850289,
+      74.521261
+    ],
+    [
+      15.849852,
+      74.521353
+    ],
+    [
+      15.849637,
+      74.521422
+    ],
+    [
+      15.849195,
+      74.521563
+    ],
+    [
+      15.848853,
+      74.521663
+    ],
+    [
+      15.848811,
+      74.52171
+    ],
+    [
+      15.848721,
+      74.521742
+    ],
+    [
+      15.84862,
+      74.521776
+    ],
+    [
+      15.848492,
+      74.521815
+    ],
+    [
+      15.848201,
+      74.5219
+    ],
+    [
+      15.848014,
+      74.521937
+    ],
+    [
+      15.847843,
+      74.521958
+    ],
+    [
+      15.847526,
+      74.521969
+    ],
+    [
+      15.847518,
+      74.521916
+    ],
+    [
+      15.847488,
+      74.521701
+    ],
+    [
+      15.847375,
+      74.521113
+    ],
+    [
+      15.846864,
+      74.519484
+    ],
+    [
+      15.846701,
+      74.518886
+    ],
+    [
+      15.846439,
+      74.518106
+    ],
+    [
+      15.84627,
+      74.517488
+    ],
+    [
+      15.84621,
+      74.517405
+    ],
+    [
+      15.846225,
+      74.517351
+    ],
+    [
+      15.846228,
+      74.517282
+    ],
+    [
+      15.846161,
+      74.516745
+    ],
+    [
+      15.846113,
+      74.516744
+    ],
+    [
+      15.845926,
+      74.516219
+    ],
+    [
+      15.845854,
+      74.516057
+    ],
+    [
+      15.845804,
+      74.515877
+    ],
+    [
+      15.845709,
+      74.515373
+    ],
+    [
+      15.845641,
+      74.515085
+    ],
+    [
+      15.845563,
+      74.514808
+    ],
+    [
+      15.845339,
+      74.513892
+    ],
+    [
+      15.845092,
+      74.512974
+    ],
+    [
+      15.845029,
+      74.5128
+    ],
+    [
+      15.844867,
+      74.512462
+    ],
+    [
+      15.844742,
+      74.512279
+    ],
+    [
+      15.844413,
+      74.511766
+    ],
+    [
+      15.843702,
+      74.510811
+    ],
+    [
+      15.843585,
+      74.510696
+    ],
+    [
+      15.843467,
+      74.510629
+    ],
+    [
+      15.843146,
+      74.510559
+    ],
+    [
+      15.842767,
+      74.510479
+    ],
+    [
+      15.842613,
+      74.51042
+    ],
+    [
+      15.842162,
+      74.510159
+    ],
+    [
+      15.841025,
+      74.509352
+    ],
+    [
+      15.840803,
+      74.509215
+    ],
+    [
+      15.840748,
+      74.509086
+    ],
+    [
+      15.840533,
+      74.508969
+    ],
+    [
+      15.84051,
+      74.50899
+    ],
+    [
+      15.840481,
+      74.509004
+    ],
+    [
+      15.84045,
+      74.509009
+    ],
+    [
+      15.840418,
+      74.509004
+    ],
+    [
+      15.84039,
+      74.50899
+    ],
+    [
+      15.840366,
+      74.508969
+    ],
+    [
+      15.839647,
+      74.508789
+    ],
+    [
+      15.839486,
+      74.508712
+    ],
+    [
+      15.839328,
+      74.508618
+    ],
+    [
+      15.839142,
+      74.508514
+    ],
+    [
+      15.83853,
+      74.508075
+    ],
+    [
+      15.837874,
+      74.507628
+    ],
+    [
+      15.837225,
+      74.507117
+    ],
+    [
+      15.837098,
+      74.507011
+    ],
+    [
+      15.836279,
+      74.506312
+    ],
+    [
+      15.835935,
+      74.506017
+    ],
+    [
+      15.835542,
+      74.505682
+    ],
+    [
+      15.834738,
+      74.504994
+    ],
+    [
+      15.834659,
+      74.504929
+    ],
+    [
+      15.834163,
+      74.504467
+    ],
+    [
+      15.833906,
+      74.504254
+    ],
+    [
+      15.833616,
+      74.50399
+    ],
+    [
+      15.832961,
+      74.503408
+    ],
+    [
+      15.832239,
+      74.502848
+    ],
+    [
+      15.832119,
+      74.50277
+    ],
+    [
+      15.830321,
+      74.501546
+    ],
+    [
+      15.830246,
+      74.501412
+    ],
+    [
+      15.829652,
+      74.501036
+    ],
+    [
+      15.828966,
+      74.500571
+    ],
+    [
+      15.828504,
+      74.500259
+    ],
+    [
+      15.827967,
+      74.499942
+    ],
+    [
+      15.827418,
+      74.499497
+    ],
+    [
+      15.826705,
+      74.499033
+    ],
+    [
+      15.825954,
+      74.498502
+    ],
+    [
+      15.825658,
+      74.498355
+    ],
+    [
+      15.825517,
+      74.498258
+    ],
+    [
+      15.825008,
+      74.497921
+    ],
+    [
+      15.824508,
+      74.497589
+    ],
+    [
+      15.824425,
+      74.497534
+    ],
+    [
+      15.82348,
+      74.496908
+    ],
+    [
+      15.82332,
+      74.496802
+    ],
+    [
+      15.823222,
+      74.496737
+    ],
+    [
+      15.823189,
+      74.496714
+    ],
+    [
+      15.823154,
+      74.496688
+    ],
+    [
+      15.823033,
+      74.496597
+    ],
+    [
+      15.82299,
+      74.496564
+    ],
+    [
+      15.822793,
+      74.49641
+    ],
+    [
+      15.822579,
+      74.496207
+    ],
+    [
+      15.822194,
+      74.49576
+    ],
+    [
+      15.821792,
+      74.495272
+    ],
+    [
+      15.821484,
+      74.494941
+    ],
+    [
+      15.82108,
+      74.494569
+    ],
+    [
+      15.820786,
+      74.494338
+    ],
+    [
+      15.820415,
+      74.494077
+    ],
+    [
+      15.820188,
+      74.49393
+    ],
+    [
+      15.819623,
+      74.493575
+    ],
+    [
+      15.819155,
+      74.493262
+    ],
+    [
+      15.81831,
+      74.492692
+    ],
+    [
+      15.817692,
+      74.492304
+    ],
+    [
+      15.817419,
+      74.49214
+    ],
+    [
+      15.817239,
+      74.492042
+    ],
+    [
+      15.816814,
+      74.491817
+    ],
+    [
+      15.816112,
+      74.491459
+    ],
+    [
+      15.816077,
+      74.491441
+    ],
+    [
+      15.81581,
+      74.49132
+    ],
+    [
+      15.815514,
+      74.491185
+    ],
+    [
+      15.815412,
+      74.491139
+    ],
+    [
+      15.814911,
+      74.490886
+    ],
+    [
+      15.814712,
+      74.490789
+    ],
+    [
+      15.814548,
+      74.490709
+    ],
+    [
+      15.814194,
+      74.490537
+    ]
+  ]
+}
